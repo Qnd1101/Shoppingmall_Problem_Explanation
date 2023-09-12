@@ -21,9 +21,6 @@ Oracle 연결
 ## 2. 테이블 생성 및 삽입
 
 ### SQL (코드)
-
-<details>
-<summary>SQL 코드</summary>
 	
 ```sql
 DROP TABLE member_tbl_02;
@@ -73,7 +70,6 @@ SELECT * FROM money_tbl_02;
 
 select max(custno) from member_tbl_02;
 ```
-</details>
 
 ---
 
@@ -81,18 +77,17 @@ select max(custno) from member_tbl_02;
 
 ### 3-1) 톰캣 연결 확인
 
-![Untitled](%E1%84%92%E1%85%A9%E1%86%B7%E1%84%89%E1%85%AD%E1%84%91%E1%85%B5%E1%86%BC%20%E1%84%92%E1%85%AC%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%86%B7%20125741c29a7b4932a583bac62366bf4a/Untitled%201.png)
+![image](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/assets/107795830/e4a40497-ef09-4f9c-a943-f17fba22e091)
+
 
 ---
 
 ## 4. index.jsp, layout(header, nav, section, footer), css(style) 생성
 
-![Untitled](%E1%84%92%E1%85%A9%E1%86%B7%E1%84%89%E1%85%AD%E1%84%91%E1%85%B5%E1%86%BC%20%E1%84%92%E1%85%AC%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%86%B7%20125741c29a7b4932a583bac62366bf4a/Untitled%202.png)
+![image](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/assets/107795830/869a17e3-f105-4b95-be26-f9327a831e30)
+
 
 ### css (코드)
-
-<details>
-<summary>CSS 코드</summary>
 	
 ```css
 @charset "UTF-8";
@@ -171,8 +166,6 @@ p {
 	font-size : 13px;
 }
 ```
-
-</details>
 
 ### layout (코드)
 
