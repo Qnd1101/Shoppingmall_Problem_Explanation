@@ -38,369 +38,31 @@ Oracle 연결
 ![image](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/assets/107795830/869a17e3-f105-4b95-be26-f9327a831e30)
 
 
-### css (코드)
-	
-```css
-@charset "UTF-8";
+### [css (코드)](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/blob/main/src/main/webapp/css/style.css)
 
-* {
-	margin : 0;
-	padding : 0;
-}
 
-#header {
-	width : 100%;
-	height : 80px;
-	background-color : blue;
-	color : white;
-	text-align : center;
-	line-height : 80px;
-}
+## layout 코드
+### [header](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/blob/main/src/main/webapp/layout/header.jsp)
 
-#nav {
-	width : 100%; height : 40px;
-	background-color : #8977ad; Color : white;
-	line-height : 40px;
-}
+### [nav](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/blob/main/src/main/webapp/layout/nav.jsp)
 
-#nav ul li a {
-	float : left;
-	padding : 0 10px;
-}
+### [section](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/blob/main/src/main/webapp/layout/section.jsp)
 
-ul li {
-	list-style : none;
-}
+### [footer](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/blob/main/src/main/webapp/layout/footer.jsp)
 
-a {
-	text-decoration : none;
-	color : white;
-}
-
-.section {
-	width : 100%; height : 100%;
-	background-color : lightgray;
-	position : fixed;
-}
-.section tr th{
-	width : 240px;
-}
-.section tr td{
-	width : 360px;
-}
-
-.section tr td input {
-	padding : 3px;
-}
-
-.c_input{
-	width : 200px;
-}
-
-h2 {
-	text-align : center;
-	padding : 20px 0;
-}
-
-p {
-	padding : 0 10px;
-}
-
-#footer {
-	width : 100%; height : 40px;
-	background-color : skyblue;
-	color : white;
-	text-align : center;
-	line-height : 40px;
-	position : absolute;
-	bottom : 0;
-	font-size : 13px;
-}
-```
-
-### layout (코드)
-
-## header
-
-```jsx
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
-<h1 id = "header">쇼핑몰 회원 관리 ver 1.0</h1>
-</body>
-</html>
-```
-
-## nav
-
-```jsx
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
-<nav id = "nav">
-	<ul>
-		<li><a href = "#">회원등록</a></li>
-		<li><a href = "#">회원목록조회/수정</a></li>
-		<li><a href = "#">회원매출조회</a></li>
-		<li><a href = "index.jsp">홈으로</a></li>
-	</ul>
-</nav>
-</body>
-</html>
-```
-
-## section
-
-```jsx
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
-<section class = "section">
-
-	<h2>쇼핑몰 회원관리 프로그램</h2>
-	<p>
-		쇼핑몰 회원정보와 회원매출정보 데이터베이스를 구축하고 회원관리 프로그램을 작서하는 프로그램이다. <br>
-		프로그램 작성 순서 <br>
-		1. 회원정보 테이블을 생성한다. <br>
-		2. 매출정보 테이블을 생성한다. <br>
-		3. 회원정보, 매출정보테이블에 제시된 문제지의 참조데이터를 추가 생성한다.<br>
-		4. 회원정보 입력 화면프로그램을 작성한다.<br>
-		5. 회원정보 조회 프로그램을 작성한다.<br>
-		6. 회원매출정보 조회 프로그램을 작성한다.
-	</p>
-</section>
-</body>
-</html>
-```
-
-## footer
-
-```jsx
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
-<footer id = "footer">
-HRDKOREA Copyrightⓒ2016 All rights reserved,Human Resources Development Service of Korea.
-</footer>
-</body>
-</html>
-```
-
-### index (코드)
-
-```jsx
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-<link rel = "stylesheet" href = "css/style.css">
-</head>
-<body>
-<header>
-	<jsp:include page = "layout/header.jsp"></jsp:include>
-</header>
-<nav>
-	<jsp:include page = "layout/nav.jsp"></jsp:include>
-</nav>
-<section>
-	<jsp:include page = "layout/section.jsp"></jsp:include>
-</section>
-<footer>
-	<jsp:include page = "layout/footer.jsp"></jsp:include>
-</footer>
-</body>
-</html>
-```
+## index
+### [index 코드](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/blob/main/src/main/webapp/index.jsp)
 
 ---
 
 ## 5. DB연결 클래스파일 생성
 
-### DBConnect (코드)
-
-```jsx
-package DB;
-
-import java.sql.*;
-
-public class DBConnection{
-	public static Connection getConnection(){
-		Connection conn = null; // Connection(연결객체) 변수 conn 선언
-
-		String url = "jdbc:oracle:thin:@localhost:1521:xe"; // 연결 드라이버 주소
-		String id = "system"; // 계정 아이디
-		String pw = "1234"; // 계정 비번
-
-		try{
-			Class.forName("oracle.jdbc.OracleDriver"); 
-			conn = DriverManager.getConnection(url, id, pw);
-			System.out.println("DB 연결 성공 했다미안");
-		} catch(Exception e){
-			e.printStackTrace();;
-		}
-		return conn;
-	}
-}
-```
-
+### [DBConnect (코드)](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/blob/main/src/main/java/DB/DBConnect.java)
 ---
 
 ## 6. join.jsp 완성(DB연결 및 데이터 불러오기, 유효성 체크 함수)
 
-### 회원 등록(front) - join.jsp (코드)
-
-```jsx
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-    
-<%@ page import = "DB.DBConnection" %>
-<%@ page import = "java.sql.*" %>
-<%
-	String sql = "select max(custno) from member_tbl_02";
-	
-	//DB 연결 기능을 객체변수 conn 에 저장 -> 1.DB 연결
-	Connection conn = DBConnection.getConnection();
-	
-	// sql변수에 저장되어 있는 문장이 쿼리문이 됨 -> 2. DB 연결 후 쿼리문이 생성
-	// PreparedStatement <- 쿼리문 형식으로 변환 해준다.
-	PreparedStatement pstmt = conn.prepareStatement(sql);
-	
-	// 변수 pstmt에 저장되어 있는 SQL문을 실행하여 객체 변수 rs에 저장
-	// 쿼리문 결과값을 받아온다.
-	ResultSet rs = pstmt.executeQuery();
-	
-	// 기준이 되는 변수에 결과값이 저장되어 있는 경우 next()를 호출하여 마지막 값을 확인
-	// 결과값이 없을 경우엔 실행 하지 않아도 됨.
-	rs.next();
-	
-	int num = rs.getInt(1) + 1;
-	
-%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-<link rel = "stylesheet" href = "css/style.css">
-<script type = "text/javascript">
-	function checkValue(){
-		if(!document.data.custname.value){
-			alert("회원성명이 입력되지 않았습니다.");
-			data.custname.focus();
-			return false;
-		} else if(!document.data.phone.value){
-			alert("회원전화가 입력되지 않았습니다.");
-			data.phone.focus();
-			return false;
-		} else if(!document.data.address.value){
-			alert("회원주소가 입력되지 않았습니다.");
-			data.address.focus();
-			return false;
-		} else if(!document.data.joindate.value){
-			alert("가입일자가 입력되지 않았습니다.");
-			data.joindate.focus();
-			return false;
-		} else if(!document.data.grade.value){
-			alert("고객등급이 입력되지 않았습니다.");
-			data.grade.focus();
-			return false;
-		} else if(!document.data.city.value){
-			alert("도시코드가 입력되지 않았습니다.");
-			data.city.focus();
-			return false;
-		} 
-		return true;
-	}
-</script>
-</head>
-<body>
-<header>
-	<jsp:include page = "layout/header.jsp"></jsp:include>
-</header>
-<nav>
-	<jsp:include page = "layout/nav.jsp"></jsp:include>
-</nav>
-<section class = "section">
-	<h2> 홈쇼핑 회원 등록 </h2>
-	<form name = "data" action="join_p.jsp" method = "post" onsubmit="return checkValue()">
-		<table border = "1" style = "margin-left: auto; margin-right: auto;">
-			<tr>
-				<th>회원번호(자동발생)</th>
-				<td><input class = "c_input" type = "text" name = "custno" value = "<%= num %>" readonly></td>
-			</tr>
-		
-			<tr>
-				<th>회원성명</th>
-				<td><input class = "c_input" type = "text" name = "custname" ></td>
-			</tr>
-		
-			<tr>
-				<th>회원전화</th>
-				<td><input class = "c_input" type = "text" name = "phone"></td>
-			</tr>
-			<tr>
-				<th>회원주소</th>
-				<td><input class = "c_input" type = "text" name = "address"></td>
-			</tr>
-			<tr>
-				<th>가입일자</th>
-				<td><input class = "c_input" type = "text" name = "joindate"></td>
-			</tr>
-		
-			<tr>
-				<th>고객등급[A:VIP,B:일반,C:직원]</th>
-				<td><input class = "c_input" type = "text" name = "grade"></td>
-			</tr>
-			<tr>
-				<th>도시코드</th>
-				<td><input class = "c_input" type = "text" name = "city"></td>
-			</tr>
-			
-			
-			
-			<tr>
-				<td colspan = "2" style = "text-align : center;">
-					<input type="submit" value="등록" >
-					<input type="button" value="취소" onclick= "location.href='join.jsp'"><!-- location.href <- 현재 브라우저에 연결페이지 로딩 -->
-					<input type="button" value="조회">
-				</td>
-			</tr>
-		</table>
-	</form>
-</section>
-<footer>
-	<jsp:include page = "layout/footer.jsp"></jsp:include>
-</footer>
-</body>
-</html>
-```
+### [회원 등록(front) - join.jsp (코드)](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/blob/main/src/main/webapp/join.jsp)
 
 ### DB연결 및 데이터 불러오기
 
@@ -470,48 +132,7 @@ public class DBConnection{
 
 ## 7. join_p.jsp ( DB연결 및 DB 테이블에 데이터 저장 )
 
-### 회원 등록(back-end) - join_p.jsp (코드)
-
-```jsx
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<%@ page import = "DB.DBConnection" %>	
-<%@ page import = "java.sql.*" %>
-<%
-	String sql = "insert into member_tbl_02 values (?, ?, ?, ?, ?, ?, ?)";
-	
-	// 오라클에 한급 입력시 깨지지 않음
-	request.setCharacterEncoding("UTF-8");
-	
-	Connection conn = DBConnect.getConnection();
-	PreparedStatement pstmt = conn.prepareStatement(sql);
-	
-	// 웹 브라우저에서 불러오는 데이터는 문자열 형식으로 인식되므로, 
-	// 숫자 데이터면 형변환 *Integer.parseInt() 메서드를 이용해야 한다.
-	pstmt.setInt(1, Integer.parseInt(request.getParameter("custno")));
-	
-	pstmt.setString(2, request.getParameter("custname"));
-	pstmt.setString(3, request.getParameter("phone"));
-	pstmt.setString(4, request.getParameter("address"));
-	pstmt.setString(5, request.getParameter("joindate"));
-	pstmt.setString(6, request.getParameter("grade"));
-	pstmt.setString(7, request.getParameter("city"));
-	
-	// 데이터베이스 질의문을 실행하여 데이터 변경 작업을 수행하고 그 결과를 알려주는 역할을 한다.
-	pstmt.executeUpdate(); // 쿼리문을 실행하고, 순서대로 member_tbl_02에 기록
-%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
-<jsp:forward page= "index.jsp"></jsp:forward>
-<!-- 데이터입력 수행 완료 후 index 페이지로 이동 -->
-</body>
-</html>
-```
+### [회원 등록(back-end) - join_p.jsp (코드)](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/blob/main/src/main/webapp/join_p.jsp)
 
 ### DB연결 및 DB 테이블에 데이터 저장
 
@@ -546,9 +167,10 @@ public class DBConnection{
 ## 8. 각 페이지 별 완성 화면 (회원등록, 회원목록조회/수정, 회원매출조회, 홈으로)
 
 
+
 <details>
 <summary>회원등록</summary>
-	뿡
+![image](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/assets/107795830/cb2989bf-1cd4-480c-aa0a-2e08f9787627)
 </details>
 
 
