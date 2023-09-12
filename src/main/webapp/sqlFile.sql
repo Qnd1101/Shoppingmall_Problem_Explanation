@@ -16,6 +16,14 @@ INSERT INTO MEMBER_TBL_02 VALUES(100004, '최사랑', '010-1111-5555', '울릉�
 INSERT INTO MEMBER_TBL_02 VALUES(100005, '진평화', '010-1111-6666', '제주도 제주시 외나무골', '20151225', 'B', '60');
 INSERT INTO MEMBER_TBL_02 VALUES(100006, '차공단', '010-1111-7777', '제주도 제주시 감나무골', '20151211', 'C', '60');
 
+select custno, custname, phone,
+address, to_char(joindate, 'yyyy-mm-dd') as joindate,
+ grade, case when grade = 'A' then 'VIP'
+  when grade = 'B' then '일반'
+   else '직원' end as grade, city 
+   from member_tbl_02 order by custno;
+SELECT * FROM MEMBER_TBL_02;
+
 DROP TABLE money_tbl_02;
 CREATE TABLE money_tbl_02(
 	custno number(6),
@@ -40,3 +48,5 @@ INSERT INTO MONEY_TBL_02 VALUES(100004, '20160009', '600', '1', '600', 'A006', '
 INSERT INTO MONEY_TBL_02 VALUES(100004, '20160010', '3000', '1', '3000', 'A007', '20160106');
 
 SELECT * FROM money_tbl_02;
+
+select max(custno) from member_tbl_02;

@@ -13,7 +13,6 @@
 	Connection conn = DBConnect.getConnection();
 	PreparedStatement pstmt = conn.prepareStatement(sql);
 	ResultSet rs = pstmt.executeQuery();
-	
 %>
 <!DOCTYPE html>
 <html>
@@ -36,13 +35,13 @@
 			<th>회원번호</th>
 			<th>회원성명</th>
 			<th>전화번호</th>
-			<th style = "width : 700px;">주소</th>
+			<th style = "width : 700px">주소</th>
 			<th>가입일자</th>
 			<th>고객등급</th>
 			<th>거주지역</th>
 		</tr>
 		<% while(rs.next()){ %>
-		<tr class = "table_line">
+		<tr style = "text-align : center;">
 			<td><a href = ""><%=rs.getString("custno")%></a></td>
 			<td><%=rs.getString("custname")%></td>
 			<td><%=rs.getString("phone")%></td>
