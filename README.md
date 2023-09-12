@@ -6,9 +6,9 @@
 
 ## 1. 프로젝트 준비 - 환경 세팅
 
-> encoding - UTF-8 세팅 (page 기본 인코딩 설정)
-Tomcat 연결
-Oracle 연결
+> encoding - UTF-8 세팅 (page 기본 인코딩 설정) <br>
+Tomcat 연결 <br>
+Oracle 연결 <br>
 (ojdbc6.jar import)
 > 
 > 
