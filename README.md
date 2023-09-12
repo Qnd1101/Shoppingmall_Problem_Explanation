@@ -22,6 +22,9 @@ Oracle 연결
 
 ### SQL (코드)
 
+<details>
+<summary>SQL 코드</summary>
+	
 ```sql
 DROP TABLE member_tbl_02;
 CREATE TABLE member_tbl_02(
@@ -70,6 +73,7 @@ SELECT * FROM money_tbl_02;
 
 select max(custno) from member_tbl_02;
 ```
+</details>
 
 ---
 
@@ -87,6 +91,9 @@ select max(custno) from member_tbl_02;
 
 ### css (코드)
 
+<details>
+<summary>CSS 코드</summary>
+	
 ```css
 @charset "UTF-8";
 
@@ -164,6 +171,8 @@ p {
 	font-size : 13px;
 }
 ```
+
+</details>
 
 ### layout (코드)
 
