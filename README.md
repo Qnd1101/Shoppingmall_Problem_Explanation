@@ -166,27 +166,15 @@ Oracle 연결
 
 ## 8. 각 페이지 별 완성 화면 (회원등록, 회원목록조회/수정, 회원매출조회, 홈으로)
 
+## 회원등록
+![image](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/assets/107795830/d8098d2b-4d00-49cb-b0c8-276cb49d78d0)
+
+## 회원목록조회/수정
+![image](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/assets/107795830/c0815d76-e73c-4560-829e-89dba5bc28ae)
+
+## 회원매출조회
+
+## 홈으로
+![image](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/assets/107795830/18dfc747-4ed9-40c1-9be8-3f42637c41f5)
 
 
-<details>
-<summary>회원등록</summary>
-![image](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/assets/107795830/cb2989bf-1cd4-480c-aa0a-2e08f9787627)
-</details>
-
-
-<details>
-<summary>회원목록조회/수정</summary>
-뿡
-</details>
-
-
-<details>
-<summary>회원매출조회</summary>
-뿡
-</details>
-
-
-<details>
-<summary>홈으로</summary>
-뿡
-</details>
