@@ -200,17 +200,35 @@ Oracle 연결 <br>
 
 ---
 
-## 9. 각 페이지 별 완성 화면 (회원등록, 회원목록조회/수정, 회원매출조회, 홈으로)
+## 8. member_list.jsp ( 테이블에 저장된 회원목록조회 )
+
+
+---
+
+---
+
+## . 각 페이지 별 완성 화면 (회원등록, 회원목록조회/수정, 회원매출조회, 홈으로)
 
 ## 회원등록
-![image](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/assets/107795830/d8098d2b-4d00-49cb-b0c8-276cb49d78d0)
+![image](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/assets/107795830/6f48bb58-87e7-4907-8e04-f73cf254f9f2)
+
 
 ## 회원목록조회/수정
-![image](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/assets/107795830/c0815d76-e73c-4560-829e-89dba5bc28ae)
+![image](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/assets/107795830/e0240598-fbdb-467d-a34f-3da932ed1981)
+
+## 회원정보조회 - input 화면
+![image](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/assets/107795830/6517780c-895f-445e-a5f5-180f225d0e8e)
+
+## 회원정보조회 - output 화면(if == true)
+![image](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/assets/107795830/9f100a69-51cd-41a9-973e-fc8ee095ad22)
+
+## 회원정보조회 - output 화면(if == false)
+![image](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/assets/107795830/d7379986-241b-4695-bccb-3d71d0d30959)
 
 ## 회원매출조회
 
 ## 홈으로
-![image](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/assets/107795830/18dfc747-4ed9-40c1-9be8-3f42637c41f5)
+![image](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/assets/107795830/8a8a9ce4-268c-4669-94d8-9fc919f2299d)
+
 
 
