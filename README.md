@@ -1,7 +1,7 @@
 # 홈쇼핑 회원관리 프로그램
 
 ## 목차
-
+[프로젝트 준비 - 환경 세팅](#1.-프로젝트-준비---환경-세팅)
 ## 1. 프로젝트 준비 - 환경 세팅
 
 > encoding - UTF-8 세팅 (page 기본 인코딩 설정) <br>
@@ -226,7 +226,7 @@ function cheakValue2() {
     
  <%
  	int in_custno = Integer.parseInt(request.getParameter("custno"));
- 	request.setCharacterEncoding("UTF-8"); //오라클에 한글 입력시 깨지지 않음
+ 	request.setCharacterEncoding("UTF-8");
  	String sql = "select custno, custname, phone, address, to_char(joindate, 'yyyy-mm-dd') as joindate, "+
 		"case when grade = 'A' then 'VIP' when grade = 'B' then '일반' when grade = 'C' then '직원' end as grade, "+
 		"city from member_tbl_02 where custno = "+ in_custno;
@@ -260,9 +260,9 @@ function cheakValue2() {
 				<th><%=rs.getString("city")%></th>
 			</tr>
 			<tr style="text-align: center">
-					<td  colspan="7" >
-						<input type="button" value="홈으로"  onclick = "location.href='index.jsp'"> <!-- "location.href=는 현재 브라우저에 연결페이지 로딩 -->
-					</td>
+				<td colspan="7">
+					<input type="button" value="홈으로"  onclick = "location.href='index.jsp'"> <!-- "location.href=는 현재 브라우저에 연결페이지 로딩 -->
+				</td>
 			</tr>
 		</table>
 	<%}else{ %>
