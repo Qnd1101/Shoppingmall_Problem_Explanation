@@ -1,6 +1,6 @@
 # 홈쇼핑 회원관리 프로그램
 
-### [노션으로 보시면 깔끔합니다. (클릭해주세요)](https://minjun11.notion.site/125741c29a7b4932a583bac62366bf4a?pvs=4)
+### [노션으로 바로가기](https://minjun11.notion.site/125741c29a7b4932a583bac62366bf4a?pvs=4)
 
 ## 1. 프로젝트 준비 - 환경 세팅
 
