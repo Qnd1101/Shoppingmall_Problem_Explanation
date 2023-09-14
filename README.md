@@ -201,7 +201,7 @@ Oracle 연결 <br>
 ---
 
 ## 9. member_search.jsp(회원정보조회 - input 화면)
-### 회원정보조회 - input 화면 코드
+### [회원정보조회 - input 화면 코드](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/blob/main/src/main/webapp/member_search.jsp)
 ### 유효성 체크 함수
 
 ```jsx
@@ -219,7 +219,7 @@ function cheakValue2() {
 
 ## 10. member_search_list.jsp(회원정보조회 - output 화면)
 
-### 회원정보조회 - output 화면 코드
+### [회원정보조회 - output 화면 코드](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/blob/main/src/main/webapp/member_search_list.jsp)
 ### DB연결 및 input에서 가져온 값을 조회
 
 ```jsx
