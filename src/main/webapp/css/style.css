@@ -39,12 +39,6 @@ a {
 	background-color : lightgray;
 	position : fixed;
 }
-.section tr th{
-	width : 240px;
-}
-.section tr td{
-	width : 360px;
-}
 
 .section tr td input {
 	padding : 3px;
@@ -72,4 +66,9 @@ p {
 	position : absolute;
 	bottom : 0;
 	font-size : 13px;
+}
+
+.table_line{
+	margin-left: auto; 
+	margin-right: auto;
 }

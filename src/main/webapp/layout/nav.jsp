@@ -11,6 +11,7 @@
 	<ul>
 		<li><a href="join.jsp">회원등록</a></li>
 		<li><a href="member_list.jsp">회원목록조회/수정</a></li>
+		<li><a href="member_search.jsp">회원정보조회</a></li>
 		<li><a href="sales_list.jsp">회원매출조회</a></li>
 		<li><a href="index.jsp">홈으로</a></li>
 	</ul>

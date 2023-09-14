@@ -30,12 +30,12 @@
 </nav>
 <section class = "section">
 	<h2>회원목록조회/수정</h2>
-	<table border = "1" style = "width : 1100px; margin-left : auto; margin-right : auto;">
+	<table border = "1" style = "width : 850px; margin-left : auto; margin-right : auto;">
 		<tr>
 			<th>회원번호</th>
 			<th>회원성명</th>
 			<th>전화번호</th>
-			<th style = "width : 700px">주소</th>
+			<th>주소</th>
 			<th>가입일자</th>
 			<th>고객등급</th>
 			<th>거주지역</th>
