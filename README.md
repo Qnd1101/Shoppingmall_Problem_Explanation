@@ -59,13 +59,15 @@ Oracle 연결 <br>
 
 ### 6. 완성화면 및 코드 설명(링크)
 
-#### [홈으로(기본화면)](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/tree/main/%ED%99%88%EC%9C%BC%EB%A1%9C(index.jsp))
+#### [홈으로 (기본화면 / 완성화면 / 코드 리뷰)](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/tree/main/%ED%99%88%EC%9C%BC%EB%A1%9C(index.jsp))
 
-#### [회원등록](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/tree/main/%ED%9A%8C%EC%9B%90%EB%93%B1%EB%A1%9D(join.jsp))
+#### [회원등록 (완성화면 / 코드 리뷰)](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/tree/main/%ED%9A%8C%EC%9B%90%EB%93%B1%EB%A1%9D(join.jsp))
 
-#### [회원목록조회/수정](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/tree/main/%ED%9A%8C%EC%9B%90%EB%AA%A9%EB%A1%9D%EC%A1%B0%ED%9A%8C_%EC%88%98%EC%A0%95(member_list.jsp))
+#### [회원목록조회/수정 (완성화면 / 코드 리뷰)](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/tree/main/%ED%9A%8C%EC%9B%90%EB%AA%A9%EB%A1%9D%EC%A1%B0%ED%9A%8C_%EC%88%98%EC%A0%95(member_list.jsp))
 
-#### []()
+#### [회원정보조회 (완성화면 / 코드 리뷰)](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/tree/main/%ED%9A%8C%EC%9B%90%EC%A0%95%EB%B3%B4%EC%A1%B0%ED%9A%8C(member_search.jsp))
+
+#### [회원매출조회 (완성화면 / 코드 리뷰)](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/tree/main/%ED%9A%8C%EC%9B%90%EB%A7%A4%EC%B6%9C%EC%A1%B0%ED%9A%8C(sales_list.jsp))
 
 
 
