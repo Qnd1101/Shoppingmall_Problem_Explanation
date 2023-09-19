@@ -75,3 +75,9 @@ function cheakValue2() {
 
 ## 완성화면
 ![image](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/assets/107795830/09d89e54-55be-4518-8fe4-2f9e1be2997a)
+
+## 조건 = true 완성화면
+![image](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/assets/107795830/f1f3c2b5-6bea-467f-852b-e57b7f476202)
+
+## 조건 = false 완성화면
+![image](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/assets/107795830/ea248dfd-0179-47b1-8b8a-cc48420601a3)
