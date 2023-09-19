@@ -72,3 +72,6 @@ function cheakValue2() {
 </nav>
 <%} %>
 ```
+
+## 완성화면
+![image](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/assets/107795830/09d89e54-55be-4518-8fe4-2f9e1be2997a)
