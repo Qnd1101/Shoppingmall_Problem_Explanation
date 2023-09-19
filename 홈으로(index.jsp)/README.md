@@ -28,4 +28,4 @@
 ### 액션 태그를 이용하여 각각의 페이지를 불러오는 형식으로 만듦.
 
 ## 완성 화면
-![image](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/assets/107795830/8a8a9ce4-268c-4669-94d8-9fc919f2299d)
+![image](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/assets/107795830/b63e15e3-428d-452b-910c-23999d456e20)
