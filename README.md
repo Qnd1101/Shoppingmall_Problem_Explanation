@@ -69,6 +69,7 @@ Oracle 연결 <br>
 
 #### [회원매출조회 (완성화면 / 코드 리뷰)](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/tree/main/%ED%9A%8C%EC%9B%90%EB%A7%A4%EC%B6%9C%EC%A1%B0%ED%9A%8C(sales_list.jsp))
 
+![image](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/assets/107795830/e7f0feb1-b68c-42f2-820e-1c600e549e42)
 
 
 
