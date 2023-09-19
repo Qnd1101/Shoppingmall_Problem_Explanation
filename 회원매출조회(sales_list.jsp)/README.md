@@ -22,7 +22,7 @@
 	// 정보가 들어있는 테이블(from) : member_tbl_02, money_tbl_02
 	// 조건(where) : member 테이블과 money 테이블의 기본키인 custno를 통해서 조인문 체결
         //              그리고 매출이 없으면 출력하지 않는 조건(사실 내부조인을 통해서 널값은 조회하지 않음)
-	// ~를 기준으로(group by) : 수학함수를 제외한 셀렉트문에 있는 모든 것
+	// 검색한 기준으로 컬럼의 중복을 하나로(group by) : 수학함수를 제외한 셀렉트문에 있는 모든 것
 	// 정렬(order by) : 매출을 기준으로 정렬
 	
 	Connection conn = DBConnect.getConnection();
