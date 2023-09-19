@@ -50,3 +50,13 @@ INSERT INTO MONEY_TBL_02 VALUES(100004, '20160010', '3000', '1', '3000', 'A007',
 SELECT * FROM money_tbl_02;
 
 select max(custno) from member_tbl_02;
+
+select mb.custno, mb.custname, 
+		case when mb.grade = 'A' then 'VIP'
+			when mb.grade = 'B' then '일반'
+			else '직원' end as grade,
+		sum(price) as 매출
+from member_tbl_02 mb, money_tbl_02 mo
+where mb.custno = mo.custno(+)
+group by mb.custno, mb.custname, grade
+order by 매출 desc;
