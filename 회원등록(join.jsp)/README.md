@@ -64,6 +64,10 @@
 	}
 </script>
 ```
+## alert 화면
+![image](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/assets/107795830/64dff4cf-ec72-4453-846e-16c703adf227)
+
+
 ## join_p.jsp ( DB연결 및 DB 테이블에 데이터 저장 )
 
 ### [회원 등록(back-end) - join_p.jsp (코드)](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/blob/main/src/main/webapp/join_p.jsp)
