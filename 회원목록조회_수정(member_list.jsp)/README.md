@@ -36,3 +36,22 @@
 
 ## 완성화면
 ![image](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/assets/107795830/e1a001da-d361-4456-ae67-4241ba756fa5)
+
+## update.jsp (회원 정보 수정 페이지)
+
+### [회원 정보 수정 - update.jsp (코드)](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/blob/main/src/main/webapp/update.jsp)
+
+### a태그를 통해 선택한 회원번호를 
+```jsp
+<%@ page import = "DB.DBConnect" %>
+<%@ page import = "java.sql.*" %>
+<%
+	String sql = "select * FROM member_tbl_02 where custno = ?";
+				
+	Connection conn = DBConnect.getConnection();
+	PreparedStatement pstmt = conn.prepareStatement(sql);
+	pstmt.setInt(1, Integer.valueOf(request.getParameter("custno")));
+	ResultSet rs = pstmt.executeQuery();
+	rs.next();
+%>
+```
