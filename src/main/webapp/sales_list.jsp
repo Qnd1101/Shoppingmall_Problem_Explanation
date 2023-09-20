@@ -6,16 +6,16 @@
 <%
 	request.setCharacterEncoding("UTF-8");
 
-	String sql = 
-		"select mb.custno as custno, mb.custname as custname, " +
-		"case when mb.grade = 'A' then 'VIP' " +
-		"when mb.grade = 'B' then '일반' " +
-		"else '직원' end as grade, " +
-		"sum(price) as sum " + 
-		"from member_tbl_02 mb, money_tbl_02 mo " +
-		"where mb.custno = mo.custno(+) " +
-		"group by mb.custno, mb.custname, mb.grade " +
-		"order by sum desc";
+	String sql = "select mb.custno as custno, mb.custname as custname, " +
+        "case when mb.grade = 'A' then 'VIP' " +
+        "when mb.grade = 'B' then '일반' " +
+        "else '직원' end as grade, " +
+        "sum(price) as sum " + 
+        "from member_tbl_02 mb, money_tbl_02 mo " +
+        "where mb.custno = mo.custno " +
+        "and mo.price is not null " +
+        "group by mb.custno, mb.custname, grade " +
+        "order by sum desc";
 		
 	Connection conn = DBConnect.getConnection();
 	PreparedStatement pstmt = conn.prepareStatement(sql);

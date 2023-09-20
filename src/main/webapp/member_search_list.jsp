@@ -7,12 +7,9 @@
 	request.setCharacterEncoding("UTF-8");
 	
 	int in_custno = Integer.parseInt(request.getParameter("custno"));
-	String sql = "select custno, custname, phone, address, " +
-				"to_char(joindate, 'yyyy-mm-dd') as joindate, " +
-				"case when grade = 'A' then 'VIP' " +
-				"when grade = 'B' then '일반' " +
-				"else '직원' end as grade, city from member_tbl_02 " +
-				"where custno" + in_custno;
+	String sql = "select custno, custname, phone, address, to_char(joindate, 'yyyy-mm-dd') as joindate, "+
+			"case when grade = 'A' then 'VIP' when grade = 'B' then '일반' when grade = 'C' then '직원' end as grade, "+
+			"city from member_tbl_02 where custno = "+ in_custno;
 	Connection conn = DBConnect.getConnection();
 	PreparedStatement pstmt = conn.prepareStatement(sql);
 	ResultSet rs = pstmt.executeQuery();
@@ -20,6 +17,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 <title>Insert title here</title>
 </head>
 <body>
@@ -30,6 +28,8 @@
 	<jsp:include page = "layout/nav.jsp"></jsp:include>
 </nav>
 <section class="section">
+ <h2>홈쇼핑 회원 조회 결과</h2>
+
 	<form>
 	<%if(rs.next()){ %>
 		<table border = "1" style = "margin-left: auto; margin-right: auto;">

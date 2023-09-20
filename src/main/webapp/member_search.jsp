@@ -26,7 +26,7 @@
 </nav>
 <section class="section">
 	<h2>회원 조회</h2>
-	<form name="data" action="member_search_list" method="post" onsubmit="return checkValue()">
+	<form name="data" action="member_search_list.jsp" method="post" onsubmit="return checkValue()">
 	<table border = "1" style = "margin-left : auto; margin-right : auto;">
 		<tr>
 			<th>회원 번호</th>
@@ -34,7 +34,7 @@
 		</tr>
 		<tr>
 			<td colspan = "2" style = "text-align : center;">
-				<input type="button" value="취소" onclick="location.href='member_search'"></input>
+				<input type="button" value="취소" onclick="location.href='member_search.jsp'"></input>
 				<input type="submit" value="조회"></input>
 			</td>
 		</tr>

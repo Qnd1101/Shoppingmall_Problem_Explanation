@@ -110,7 +110,7 @@
 				<td colspan = "2" style = "text-align : center;">
 					<input type="submit" value="등록" >
 					<input type="button" value="취소" onclick= "location.href='join.jsp'"><!-- location.href <- 현재 브라우저에 연결페이지 로딩 -->
-					<input type="button" value="조회">
+					<input type="button" value="조회" onclick= "location.href='member_list.jsp'">
 				</td>
 			</tr>
 		</table>

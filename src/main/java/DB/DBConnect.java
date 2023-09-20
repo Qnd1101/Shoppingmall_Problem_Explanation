@@ -15,7 +15,7 @@ public class DBConnect{
 			conn = DriverManager.getConnection(url, id, pw);
 			System.out.println("DB 연결 성공 했다미안");
 		} catch(Exception e){
-			e.printStackTrace();;
+			e.printStackTrace();
 		}
 		return conn;
 	}
