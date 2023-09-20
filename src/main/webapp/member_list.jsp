@@ -30,6 +30,7 @@
 </nav>
 <section class = "section">
 	<h2>회원목록조회/수정</h2>
+	<form>
 	<table border = "1" style = "width : 850px; margin-left : auto; margin-right : auto;">
 		<tr>
 			<th>회원번호</th>
@@ -42,7 +43,7 @@
 		</tr>
 		<% while(rs.next()){ %>
 		<tr style = "text-align : center;">
-			<td><a href = ""><%=rs.getString("custno")%></a></td>
+			<td><a href = "update.jsp?custno=<%= rs.getString("custno")%>"><%=rs.getString("custno")%></a></td>
 			<td><%=rs.getString("custname")%></td>
 			<td><%=rs.getString("phone")%></td>
 			<td><%=rs.getString("address")%></td>
@@ -51,6 +52,7 @@
 			<td><%=rs.getString("city")%></td>
 		</tr> <% } %>
 	</table>
+	</form>
 </section>
 <footer>
 	<jsp:include page = "layout/footer.jsp"></jsp:include>

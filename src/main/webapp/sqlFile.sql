@@ -3,6 +3,7 @@ CREATE TABLE member_tbl_02(
 	custno number(6) primary key,
 	custname varchar2(20),
 	phone varchar2(13),
+	ㄴㄴㄴㄴㄴㄴ
 	address varchar2(60),
 	joindate date,
 	grade char(2),
@@ -60,3 +61,14 @@ from member_tbl_02 mb, money_tbl_02 mo
 where mb.custno = mo.custno(+)
 group by mb.custno, mb.custname, grade
 order by 매출 desc;
+
+INSERT INTO MEMBER_TBL_02 VALUES(100006, '차공단', '010-1111-7777', '제주도 제주시 감나무골', '20151211', 'C', '60');
+update member_tbl_02 set
+		custname = '김민준',
+		phone = '뿡뿡이ㅇ',
+		address = '뿡',
+		joindate = '2023-09-11',
+		grade = 'A',
+		city = '01'
+where custno = 100007
+		
