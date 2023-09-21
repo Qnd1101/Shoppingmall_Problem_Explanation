@@ -103,7 +103,7 @@
 ## 완성화면
 ![image](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/assets/107795830/94653880-adb1-44dd-b3a2-808c5e3790db)
 
-## update_p.jsp (테이블 수정하는 코드)
+## update_p.jsp (회원번호에 해당하는 '행' 수정하는 코드)
 
 ### update.jsp 에서 수정 버튼을 눌렀을 때 반응하는 코드
 ```jsp
@@ -121,6 +121,20 @@
 	pstmt.setString(5, request.getParameter("grade"));
 	pstmt.setString(6, request.getParameter("city"));
 	pstmt.setInt(7, Integer.parseInt(request.getParameter("custno")));	
+	
+	pstmt.executeUpdate();
+%>
+```
+## update_d.jsp (회원번호에 해당하는 '행' 삭제하는 코드)
+
+### update.jsp 에서 삭제 버튼을 눌렀을 떄 반응하는 코드
+```jsp
+<%
+	request.setCharacterEncoding("UTF-8");
+
+	Connection conn = DBConnect.getConnection();
+	String sql = "delete from member_tbl_02 where custno = " + Integer.parseInt(request.getParameter("custno"));
+	PreparedStatement pstmt = conn.prepareStatement(sql);
 	
 	pstmt.executeUpdate();
 %>
