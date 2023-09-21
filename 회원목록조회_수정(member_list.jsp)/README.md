@@ -104,6 +104,7 @@
 ![image](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/assets/107795830/94653880-adb1-44dd-b3a2-808c5e3790db)
 
 ## update_p.jsp (회원번호에 해당하는 '행' 수정하는 코드)
+### [회원 정보 수정(back-and) - update_p.jsp (코드)](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/blob/main/src/main/webapp/update_p.jsp)
 
 ### update.jsp 에서 수정 버튼을 눌렀을 때 반응하는 코드
 ```jsp
@@ -126,6 +127,8 @@
 %>
 ```
 ## update_d.jsp (회원번호에 해당하는 '행' 삭제하는 코드)
+
+### [회원 정보 삭제(back-end) - update_d.jsp (코드)](https://github.com/Qnd1101/Shoppingmall_Problem_Explanation/blob/main/src/main/webapp/update_d.jsp)
 
 ### update.jsp 에서 삭제 버튼을 눌렀을 떄 반응하는 코드
 ```jsp
