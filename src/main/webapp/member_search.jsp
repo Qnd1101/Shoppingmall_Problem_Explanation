@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>회원정보조회</title>
 <link rel = "stylesheet" href="css/style.css">
 <script type="text/javascript">
 	function checkValue() {

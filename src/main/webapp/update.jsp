@@ -44,9 +44,20 @@
 		alert("회원정보 수정이 완료되었습니다.")
 		return true;
 	}
+
+	function checkDel() {
+		if (confirm("삭제하시겠습니까?") == true){ 
+			alert("삭제되었습니다");
+			return location.href="update_d.jsp?custno=<%= rs.getString("custno")%>";
+		}
+		alert("삭제가 취소되었습니다.");
+		return false;
+		
+	}
+
 </script>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>회원 정보 수정</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -89,9 +100,10 @@
 				<td><input name="city" value=<%= rs.getString("city") %> type="text"></td>
 			</tr>
 			<tr>
-				<td colspan="2">
+				<td colspan="3">
 					<input type="submit" value="수정"></input>
 					<input type="button" value="조회" onclick="location.href='member_list.jsp'"></input>
+					<input type="button" value="삭제" onclick="checkDel()"></input>
 				</td>
 			</tr>
 		</table>

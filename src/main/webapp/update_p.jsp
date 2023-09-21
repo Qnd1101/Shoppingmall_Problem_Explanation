@@ -26,6 +26,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<jsp:forward page= "index.jsp"></jsp:forward>
+<jsp:forward page= "member_list.jsp"></jsp:forward>
 </body>
 </html>

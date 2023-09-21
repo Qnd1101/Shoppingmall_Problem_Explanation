@@ -27,7 +27,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>회원매출조회</title>
 <link rel = "stylesheet" href = "css/style.css">
 </head>
 <body>

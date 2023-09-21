@@ -18,7 +18,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>회원목록조회/수정</title>
 <link rel = "stylesheet" href = "css/style.css">
 </head>
 <body>
@@ -44,13 +44,15 @@
 		<% while(rs.next()){ %>
 		<tr style = "text-align : center;">
 			<td><a href = "update.jsp?custno=<%= rs.getString("custno")%>"><%=rs.getString("custno")%></a></td>
+			<!-- update.jsp에 매개변수명 click_custno를 선언, 매개변수 값으로는 회원번호를 오라클에서 읽어들인 값을 저장 -->
 			<td><%=rs.getString("custname")%></td>
 			<td><%=rs.getString("phone")%></td>
 			<td><%=rs.getString("address")%></td>
 			<td><%=rs.getString("joindate")%></td>
 			<td><%=rs.getString("grade")%></td>
 			<td><%=rs.getString("city")%></td>
-		</tr> <% } %>
+		</tr> 
+		<% } %>
 	</table>
 	</form>
 </section>

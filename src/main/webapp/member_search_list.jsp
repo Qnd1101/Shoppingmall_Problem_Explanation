@@ -18,7 +18,7 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<title>Insert title here</title>
+<title>홈쇼핑 회원 조회 결과</title>
 </head>
 <body>
 <header>
