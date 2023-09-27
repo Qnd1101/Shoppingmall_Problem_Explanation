@@ -16,7 +16,7 @@
 	pstmt.setString(4, request.getParameter("joindate"));
 	pstmt.setString(5, request.getParameter("grade"));
 	pstmt.setString(6, request.getParameter("city"));
-	pstmt.setInt(7, Integer.valueOf(request.getParameter("custno")));	
+	pstmt.setInt(7, Integer.parseInt(request.getParameter("custno")));	
 	
 	pstmt.executeUpdate();
 %>

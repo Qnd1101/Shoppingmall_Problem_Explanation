@@ -20,6 +20,16 @@
 <meta charset="UTF-8">
 <title>회원목록조회/수정</title>
 <link rel = "stylesheet" href = "css/style.css">
+<script type="text/javascript">
+	function checkDel(custno) {
+		if (confirm("삭제하시겠습니까?") != 0){ 
+			alert("삭제되었습니다");
+			return location.href="update_d.jsp?custno=" + custno;
+		}
+		alert("삭제가 취소되었습니다.");
+		return false;		
+	}
+</script>
 </head>
 <body>
 <header>
@@ -51,6 +61,10 @@
 			<td><%=rs.getString("joindate")%></td>
 			<td><%=rs.getString("grade")%></td>
 			<td><%=rs.getString("city")%></td>
+			<td colspan = "2">
+				<input type="button" value="수정" onclick="javascript:location.href='update.jsp?custno=<%= rs.getString("custno") %>'" size="7"></input>
+				<input type="button" value="삭제" onclick="checkDel(<%= rs.getString("custno") %>)" size="7" ></input>
+			</td>
 		</tr> 
 		<% } %>
 	</table>
