@@ -48,7 +48,7 @@
 	function checkDel() {
 		if (confirm("삭제하시겠습니까?") == true){ 
 			alert("삭제되었습니다");
-			return location.href="update_d.jsp?custno=<%= rs.getString("custno")%>;
+			return location.href="update_d.jsp?custno="+data.custno.value;
 		}
 		alert("삭제가 취소되었습니다.");
 		return false;
